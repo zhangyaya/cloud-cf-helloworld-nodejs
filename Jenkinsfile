@@ -1,5 +1,6 @@
 @Library('piper-lib-os') _
 
+agent any
 
 node() {
     stage('prepare') {
