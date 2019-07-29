@@ -6,7 +6,7 @@ node() {
         setupCommonPipelineEnvironment script:this
     }
     stage('build') {
-        mtaBuild script: this
+        mavenBuild script: this
     }
  
 }

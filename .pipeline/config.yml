@@ -1,4 +1,4 @@
 general:
 steps:
-  mtaBuild:
+  mavenBuild:
     buildTarget: 'CF'
